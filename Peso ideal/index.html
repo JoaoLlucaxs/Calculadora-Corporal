@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
     <title>Calculo peso ideal</title>
 </head>
+
 <body>
-    
+
     <form class="form">
         <div class="campo">
             <div class="descript">
                 <h1>Calcule o seu peso</h1>
                 <p>Consulte um médico para a melhora da sua saúde .</p>
             </div>
-            <input type="text" placeholder="Diga seu nome" class="name"/>
+            <input type="text" placeholder="Diga seu nome" class="name" />
 
             <label>Sexo:</label>
-            <input type="radio" name="sexo" class="masculino" value="1" required/>Masculino
-            <input type="radio" name="sexo" class="feminino" value="2" required/>Feminino
+            <input type="radio" name="sexo" class="masculino" value="1" required />Masculino
+            <input type="radio" name="sexo" class="feminino" value="2" required />Feminino
 
-            <input type="number" min="0" step="0.01" placeholder="Ex 1.80" class="altura"/>
+            <input type="number" min="0" step="0.01" placeholder="Digite sua altura 1.80" class="altura" />
 
             <button type="submit" class="btn js_calculo">Calcular Peso Ideal</button>
             <button type="submit" class="btn js_limpa">Limpar Campos</button>
         </div>
 
         <div class="img">
-            <img src="./img/peso.webp"/>
+            <img src="./img/peso.webp" />
         </div>
     </form>
 
@@ -41,4 +43,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
